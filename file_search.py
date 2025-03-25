@@ -113,6 +113,7 @@ async def main():
 
     response = client.responses.create(
     model="gpt-4o-mini",
+    ### Customize with your prompt
     input="How many files are in the vector store, and what are the contents of each file?",
     tools=[{
         "type": "file_search",
