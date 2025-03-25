@@ -101,6 +101,7 @@ async def check_vector_store_status(client, vector_store_id, file_id):
 
 ### Main Function
 async def main():
+    ### Customize with your file path
     file_path = "https://icpkbtest.blob.core.windows.net/public-pdfs-bloblevel/testPDF2.pdf"
     file_id = create_file(client, file_path)
     
